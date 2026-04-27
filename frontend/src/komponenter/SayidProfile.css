@@ -1,0 +1,47 @@
+.SayidProfile {
+  background-color: #ffffff;
+  border: 2px solid #222;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  width: 260px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.SayidProfile figure {
+  margin: 0 auto 1rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #222;
+}
+
+.SayidProfile figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.SayidProfile-info h2 {
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 0.4rem;
+}
+
+.SayidProfile-info p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.4rem;
+}
+
+.SayidProfile-info a {
+  color: #1a1a2e;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.SayidProfile-info a:hover,
+.SayidProfile-info a:focus {
+  text-decoration: underline;
+}
